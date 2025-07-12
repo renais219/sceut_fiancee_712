@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sceut - 專屬於您的香水介紹</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background: #fef9f4;
+            font-family: 'Noto Serif TC', serif;
+            color: #5a4333;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 20px;
+            background: linear-gradient(180deg, #fff7f0, #fef9f4);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            color: #a87552;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 20px;
+            color: #b08968;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px 60px;
+        }
+
+        .card {
+            background: #fffdf9;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            padding: 30px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #8a6f5b;
+            font-size: 14px;
+            background: #fdf6ef;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 40px;
+            }
+            header h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sceut</h1>
+        <h2>專屬於您的香水介紹</h2>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="scent-intro.jpg" alt="香水介紹圖片">
+        </div>
+    </div>
+
+    <div class="footer">
+        Sceut-The Scents suit you the most.。<br>© 2025 Sceut All Rights Reserved.
+    </div>
+
+</body>
+</html>
